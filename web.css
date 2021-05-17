@@ -1,0 +1,83 @@
+body{
+    
+    background-color:black;
+}
+.ml12 {
+    font-weight: 200;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+  
+  .ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+
+h1{
+    text-align: center;
+    color: pink;
+}
+h3{
+    text-align: center;
+    color: pink;
+}
+.box{
+    background-color: black;
+}
+.image{
+    position: relative;
+}
+.slider{
+    width: 600px;
+    height: 400px;
+    background : url(1.jpg);
+    margin: 5px ;
+    animation:slide 20s infinite;
+    top: 1430px;
+    left:10px;
+    position: absolute;
+}
+
+@keyframes slide{
+    25%{
+        background:url(2.jpg);
+    }
+    50%{
+        background:url(3.jpg);
+    }
+    75%{
+        background:url(4.jpg);
+    }
+    100%{
+        background:url(hana.jpg);
+    }
+}
+
+.ima{
+    position: absolute;
+    right: 0;
+    top:1440px;
+
+}
+.gg{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.footer {
+    left: 500px;
+    padding-bottom: 30px;
+}
+.text{
+    position: absolute;
+    top: 1850px;
+    right: 0;
+    font-size: xx-large;
+    color: pink;
+    width: 600px;
+    height: 700px;
+    border: 3px solid pink;
+  }
